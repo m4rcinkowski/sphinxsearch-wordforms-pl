@@ -1,7 +1,8 @@
 sphinxsearch-wordforms-pl
 =========================
 
-Polish stemming-like dictionary for use with Sphinx Search.
+Polish wordforms file (dictionary) for use with Sphinx Search, as it lacks official polish stemmer.
+Provided text file has already been stripped of duplicate wordforms.
 
 ## Usage
 Link to the dictionary file in an index definition in your Sphinx config (typically `/etc/sphinxsearch/sphinx.conf`).
